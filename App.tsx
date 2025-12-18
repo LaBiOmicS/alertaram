@@ -51,6 +51,21 @@ function App() {
             © {new Date().getFullYear()} - Educação Científica e Saúde Única para Todos.
           </p>
           
+          {/* Idealização Section */}
+          <div className="mb-8">
+            <p className="text-slate-900 font-bold mb-2">Idealização</p>
+            <a 
+              href="https://labiomics.bioinformatica.com.br" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-brand-600 hover:text-brand-700 font-semibold text-sm transition-colors"
+            >
+              LaBiOmicS
+            </a>
+            <p className="text-slate-500 text-sm">Laboratório de Bioinformática e Ciências Ômicas</p>
+            <p className="text-slate-500 text-sm">Universidade de Mogi das Cruzes (UMC)</p>
+          </div>
+          
           <div className="flex justify-center flex-wrap gap-x-6 gap-y-2 text-xs font-medium text-slate-400 uppercase tracking-widest">
             <span>ODS 3: Saúde e Bem-estar</span>
             <span>One Health</span>
